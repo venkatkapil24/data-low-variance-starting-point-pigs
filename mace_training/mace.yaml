@@ -1,0 +1,44 @@
+# Architecture and force-only loss used for the paper. Paths are supplied by
+# train_model.py. Training does not require energies for these force labels.
+seed: 1230
+default_dtype: float32
+model: MACE
+r_max: 5.0
+num_radial_basis: 8
+num_cutoff_basis: 5
+interaction: RealAgnosticResidualInteractionBlock
+interaction_first: RealAgnosticResidualInteractionBlock
+num_interactions: 2
+num_channels: 64
+max_L: 0
+max_ell: 3
+correlation: 3
+scaling: no_scaling
+compute_avg_num_neighbors: true
+forces_key: REF_forces
+atomic_numbers: "[1, 8]"
+E0s: "{1: 0.0, 8: 0.0}"
+loss: forces_only
+energy_weight: 0.0
+forces_weight: 1.0
+swa_energy_weight: 0.0
+swa_forces_weight: 1.0
+optimizer: adamw
+batch_size: 1
+valid_batch_size: 8
+lr: 1.0e-2
+weight_decay: 1.0e-6
+scheduler: ReduceLROnPlateau
+lr_factor: 0.8
+scheduler_patience: 5
+patience: 500
+ema: true
+ema_decay: 0.99
+swa: false
+eval_interval: 2
+clip_grad: 10.0
+keep_checkpoints: true
+save_all_checkpoints: false
+save_cpu: true
+restart_latest: false
+log_level: INFO

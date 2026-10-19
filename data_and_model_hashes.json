@@ -1,0 +1,23 @@
+{
+  "ipi_commit": "7a1dfa9039225605154b59489625a06f70026864",
+  "files": {
+    "datasets/water_300K/constrained_configurations.extxyz": "b3cc0334e48a6acbcb00d1ee18756bcbceefbb35da29a3bbb8b42c2963867c6c",
+    "datasets/water_300K/summary.json": "8ea4e8f9759ed635e8f05006c0f528904517aa334e174522c219dcbe441c1c17",
+    "datasets/water_300K/test.extxyz": "c91024e70b141d230e1e2eb567f6ff46951fb67c3ad5e71b5aff839cdbc33bed",
+    "datasets/water_300K/train.extxyz": "966533eca15961bcb605d788052a4d0a8002a1d31175032cfbcf2c3dd2f86f02",
+    "datasets/water_300K/validation.extxyz": "1ed0e7b805d5b56bdc9b523ea5a7546944af7625ae31120a681f638082d90357",
+    "datasets/zundel_100K/constrained_configurations.extxyz": "a148c6a6119fc9eca89c4c4bd68d92bd8837ec5a69f44d6e127f99838e8b3cdd",
+    "datasets/zundel_100K/summary.json": "eac9156faf457345734bb3638edd224a0eabed356a1d39d21760e651976e9fb4",
+    "datasets/zundel_100K/test.extxyz": "98932d3905962c6fd56f0e362b6d08f55aba706dff97ca786635c1795314dc24",
+    "datasets/zundel_100K/train.extxyz": "b8f5ce2301996789574ebe9f8848abbabc4711fce132b8039b29f1cdf68fe5de",
+    "datasets/zundel_100K/validation.extxyz": "f55ca2bc5bc9fdf1fcdb60b20ff3e6116cab82e7d8250f0eadba4fff3fedf296",
+    "datasets/zundel_300K/constrained_configurations.extxyz": "885946930466eddfc7884a06ecde0584a8cfb92245f249b847b85977edc5d4fc",
+    "datasets/zundel_300K/summary.json": "a2d986bcb497599b8a634951f90bfebf19a9cee81eb113b8f657fd07247480b9",
+    "datasets/zundel_300K/test.extxyz": "2cd0fa8de9195a5fb0cff3fca809e978054a443fc099e1074e3b8bc784c593b7",
+    "datasets/zundel_300K/train.extxyz": "ff09ecdb5667b0dcbfea0d832e3b69d0b4ba5469b1d98565f921d92951cadcb4",
+    "datasets/zundel_300K/validation.extxyz": "cf989aee397848c351294ba6ce7fefae64ee9b4a9374ae2da6acae3cf6a9b79a",
+    "models/water_300K_epoch80.model": "d6657f7801d7278d6fde53a2f1af91139eba90a8e1325709463f78d2486401e8",
+    "models/zundel_100K.model": "17135ce7d2ccc554b70fe7e8296ae7c60281593ca969e8d3b7703a668775f6bf",
+    "models/zundel_300K.model": "22ff2e04ef9ede84dc1139c737d3429b1fcf6658b70c965540b1dc73ed792e39"
+  }
+}
